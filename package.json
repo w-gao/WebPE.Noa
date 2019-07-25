@@ -1,0 +1,21 @@
+{
+  "name": "webpe.noa",
+  "version": "0.1.0",
+  "description": "WebPE client implementation using the Noa + Babylon.js engine",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "browserify src/index.ts -p [ tsify ] > public/js/app.js",
+    "pserve": "cd public/; python -m SimpleHTTPServer 8000"
+  },
+  "author": "w-gao",
+  "devDependencies": {
+    "browserify": "^16.3.0",
+    "tsify": "^4.0.1",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@types/node": "^12.6.8",
+    "babylonjs": "^4.0.3",
+    "noa-engine": "github:andyhall/noa#develop"
+  }
+}
