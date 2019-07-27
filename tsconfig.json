@@ -10,17 +10,10 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "moduleResolution": "node",
-    "outDir": "dist",
-    "rootDir": "./src",
-    "sourceMap": false,
-    "types": [
-      "node"
-    ],
-    "typeRoots": [
-      "node_modules/@types"
-    ]
+    "sourceMap": true
   },
-  "include": [
-    "src/**/*"
+  "exclude": [
+    "node_modules",
+    "./dist"
   ]
 }
