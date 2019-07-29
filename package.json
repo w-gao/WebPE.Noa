@@ -16,8 +16,9 @@
     "webpack-cli": "^3.3.2"
   },
   "dependencies": {
+    "@webpejs/network": "github:w-gao/webpe.js",
+    "babylon-voxel-player": "^1.0.0",
     "babylonjs": "^4.0.3",
-    "noa-engine": "github:andyhall/noa#develop",
-    "@webpejs/network": "github:w-gao/webpe.js"
+    "noa-engine": "github:andyhall/noa#develop"
   }
 }
